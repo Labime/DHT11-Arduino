@@ -1,0 +1,4 @@
+Pour faire fonctionner ce code il est nécessaire de posséder les librairies suivantes :
+
+-DHT-sensor-library-master
+-jm_LiquidCrystal_I2C

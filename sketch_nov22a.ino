@@ -9,7 +9,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.print("I Will Survive");
-  lcd.begin(16,2); //Initialise le LCD et spécifie les dimensions de l'écran
+  lcd.begin(16,2); 
   Serial.begin(9600);
   dht.begin();
 }
@@ -19,7 +19,6 @@ void loop() {
 
   
   int h = dht.readHumidity();
-  //Lire la température en Celsius (C°)
   int t = dht.readTemperature();
   delay(100); //
   Serial.println(t);
